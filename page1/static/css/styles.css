@@ -1,0 +1,30 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 10;
+    list-style: none;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:15px;
+    margin-left:990px;
+}
+.link{
+    color: white;
+    font-size: 16px;
+    margin-top:20px;
+    margin-left:15px;
+}
+.text1{
+font-size:12pt;
+}
+.form{
+margin-top:200px;
+margin-left:200px;
+}

@@ -1,0 +1,22 @@
+{% extends "base_generic.html" %}
+
+{%block header%}
+
+{% endblock%}
+
+
+
+{% block content %}
+
+          <button class="button">Sign in</button>
+
+
+<h1>О нас</h1>
+<h2>Dynamic content</h2>
+
+      {%for past in pasts%}
+        <strong>О компании {{ past.id }}:</strong>
+       <p class="text1"> {{ past.text }} </p>
+        <br/>
+      {%endfor%}
+{% endblock %}
